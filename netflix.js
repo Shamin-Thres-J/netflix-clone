@@ -1,4 +1,5 @@
-const tabItems = document.querySelectorAll('.tab-item');
+<script>
+	const tabItems = document.querySelectorAll('.tab-item');
 const tabContentItems = document.querySelectorAll('.tab-content-item');
 
 // Select tab content item
@@ -32,3 +33,4 @@ function removeShow() {
 tabItems.forEach(item => {
 	item.addEventListener('click', selectItem);
 });
+</script>
